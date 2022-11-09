@@ -1,0 +1,13 @@
+INTEGRANTES:
+
+1. Participante 1: Hidalgo Rojas Mariajose Maytte
+	E.SECUENCIALES: 1; 2; 3; 4 y 5
+	E.CONDICIONALES: 6; 7; 8; 9 y 24
+
+2.Participante 2: Milla Romero Mijael Anderson
+	E. SECUENCIALES: 11; 12; 13; 14 y 15
+	E. CONDICIONALES: 11; 12; 13; 20 y 40
+
+3.Participante 3: Galarza Quispe Samira Antonieta
+	E. SECUENCIALES: 6; 7; 8; 9 y 10
+	E. CONDICIONALES: 1; 2; 3; 4 Y 5

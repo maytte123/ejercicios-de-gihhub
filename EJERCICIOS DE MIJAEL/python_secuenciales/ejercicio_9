@@ -1,0 +1,18 @@
+import os
+os.system("cls")
+'''9.Desarrolle el programa que lea un número 
+entero y determine la suma de sus cifras. 
+Asumir que el número es positivo y de 4 cifras.'''
+print("")
+numero_entero=int(input("digite el numero de 4 cifras:"))
+numero_1=int(numero_entero/1000)
+numero_2=int((numero_entero%1000)/100)
+numero_3=int(((numero_entero%1000)%100)/10)
+numero_4=numero_entero%10
+
+print("la suma de sus cifras",numero_1+numero_2+numero_3+numero_4)
+
+
+
+
+

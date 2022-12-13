@@ -1,0 +1,18 @@
+import os
+os.system("cls")
+'''8.Desarrolle el programa que determine de un cilindro el área base = π r2, 
+área lateral = 2 π r h, área total = 2 x área base x área lateral. 
+Siendo r el radio y h la altura.'''
+print("")
+
+radio=int(input("digite el radio del cilindro:"))
+altura=int(input("digite la altura del cilindro:"))
+
+area_base=3.1416*(radio**2)
+area_lateral=3.1416*2*radio*altura
+area_total=area_base*area_lateral
+
+print("el area area del cilindro es",area_base)
+print("el area lateral del cilindro es",area_lateral)
+print("el area total es",area_total)
+

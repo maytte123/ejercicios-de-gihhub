@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+'''6.	Desarrolle el programa que calcule el área total y el volumen de un cilindro. 
+Considere las siguientes formulas: Área = 2πr(r+h) y Volumen = πr2h. Siendo r el radio y h la altura.'''
+print("")
+radio=int(input("digite la radio del cilindro"))
+altura=int(input("ingrese la altura del cilindro"))
+
+areatotal=(radio+altura)*radio*2*3.1416
+volumen=3.1416*radio*2*altura
+
+print("el area total del cilindro es",areatotal)
+print("el volumen total del cilindro es",volumen)

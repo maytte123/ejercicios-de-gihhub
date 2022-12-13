@@ -1,0 +1,16 @@
+import os
+os.system("cls")
+'''7.Desarrolle el programa que determine el 
+área y el perímetro de un rectángulo sabiendo 
+que el área = b x h, perímetro = 2x (b+h).'''
+print("")
+
+base=int(input("digite la base del rectangulo"))
+altura=int(input("digite la altura del rectangulo"))
+area=base*altura
+perimetro=2*(base+altura)
+
+print("el area del rectangulo es",area)
+print("el perimetro del rectangulo es",perimetro)
+
+

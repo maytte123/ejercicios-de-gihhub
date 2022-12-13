@@ -1,0 +1,14 @@
+import os
+os.system("cls")
+'''1.	Desarrolle el programa que determine el porcentaje de
+ varones y de mujeres que hay en un salón de clases.'''
+
+varones=int(input("varones:"))
+mujeres=int(input("mujeres:"))
+
+total=varones+mujeres
+porcentaje_varones=int((varones*100)/total)
+porcentaje_mujeres=int((mujeres*100)/total)
+
+print("El porcentaje de hombres es:",porcentaje_varones,"%")
+print("El porcentaje de mujeres es:",porcentaje_mujeres,"%")

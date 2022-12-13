@@ -1,0 +1,27 @@
+import os
+os.system("cls")
+'''10.	Dado un número natural de cuatro cifras, 
+desarrolle el programa que permite obtener el 
+número al revés. Ejemplo 1234   4321.'''
+print("")
+numero=int(input("digite el numero:"))
+
+numero_a=(numero//1000)
+numero_b=((numero%1000)//100)
+numero_c=(((numero%1000)%100)//10)
+numero_d=(numero%10)
+
+print("el numero al reves es:",numero_a+(numero_b*10)+(numero_c*100)+(numero_d*1000))
+
+
+
+
+
+
+
+
+
+
+
+
+

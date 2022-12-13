@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+"5.	Desarrolle el programa que dada la capacidad de un disco duro en gigabytes, lo convierta a megabytes, kilobytes y bytes. 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB."
+print("")
+capacidad_en_GB =int(input("capacidad de disco en GB:"))
+capacidad_en_MB=capacidad_en_GB*1024
+capacidad_en_KB=capacidad_en_MB*1024
+capacidad_en_B=capacidad_en_KB*1024
+
+print("la capacidad de MB",capacidad_en_MB)
+print("la capacidad de KB",capacidad_en_KB)
+print("la capacidad de B",capacidad_en_B)
+
